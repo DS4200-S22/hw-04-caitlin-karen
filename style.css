@@ -1,0 +1,31 @@
+body {
+    font-family: arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+#shape-flex {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: auto;
+}
+
+#circle1 {
+    fill: #FF4A60;    
+}
+
+#circle2 {
+    fill: #FFF46E;
+}
+
+#circle3 {
+    fill: #6EDBFF;
+}
+
+#circle1, #circle3 {
+    stroke: black;
+    stroke-width: 4;
+}
