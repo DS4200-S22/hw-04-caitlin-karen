@@ -14,18 +14,31 @@ h1 {
 }
 
 #circle1 {
-    fill: #FF4A60;    
+    fill: #FF4A60;
+    stroke: black;
+    stroke-width: 4;    
 }
 
 #circle2 {
     fill: #FFF46E;
 }
 
-#circle3 {
+.active {
     fill: #6EDBFF;
-}
-
-#circle1, #circle3 {
     stroke: black;
     stroke-width: 4;
+}
+
+.hidden {
+    fill: white;
+    stroke: none;
+}
+
+.border {
+    stroke: black;
+    stroke-width: 4;
+}
+
+.borderless {
+    stroke: none;
 }
