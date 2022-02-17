@@ -1,7 +1,10 @@
 console.log("hello world");
 
+let clicked = 0;
 function count() {
-    
+    let circleText = document.getElementById("count");
+    clicked++;
+    circleText.innerHTML = "clicked: " + clicked;
 }
 
 function border() {

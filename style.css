@@ -6,6 +6,11 @@ h1 {
     text-align: center;
 }
 
+text {
+    text-align: center;
+    font-size: 10;
+}
+
 #shape-flex {
     display: flex;
     justify-content: center;
