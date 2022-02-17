@@ -23,15 +23,10 @@ h1 {
     fill: #FFF46E;
 }
 
-.active {
+#circle3 {
     fill: #6EDBFF;
     stroke: black;
     stroke-width: 4;
-}
-
-.hidden {
-    fill: white;
-    stroke: none;
 }
 
 .border {

@@ -1,5 +1,9 @@
 console.log("hello world");
 
+function count() {
+    
+}
+
 function border() {
     let circle = document.getElementById("circle2");
     circle.classList.add("border");
@@ -12,7 +16,17 @@ function borderless() {
     circle.classList.remove("border");
 }
 
+let appeared = true;
 function disappear() {
     let circle = document.getElementById("circle3");
-    circle.classList.toggle("hidden");
+
+    if (appeared) {
+        circle.style.opacity = 0;
+        appeared = false;
+    }
+    else {
+        circle.style.opacity = 1;
+        appeared = true;    
+    }
+
 }
